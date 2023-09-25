@@ -22,7 +22,7 @@ const DateInput = () => {
           min={new Date().toISOString().split("T")[0]}
           value={selectedArrivalDate}
           onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
-          className="w-[50%] md:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+          className="w-[50%] xl:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black xl:text-white pl-3 pr-3"
         />
         <input
           type="date"
@@ -31,7 +31,7 @@ const DateInput = () => {
           min={new Date().toISOString().split("T")[0]}
           value={selectedArrivalDate}
           onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
-          className="w-[50%] md:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+          className="w-[50%] xl:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black xl:text-white pl-3 pr-3"
         />
       </div>
     </div>

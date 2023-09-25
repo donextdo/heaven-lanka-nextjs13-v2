@@ -136,7 +136,7 @@ const FooterView = () => {
 
           <div className="flex flex-row justify-center">
 
-          <Image src={Payments} alt="item1" className="md:ml-[-190px]" />
+          <Image src={Payments} alt="item1" className="xl:ml-[-190px]" />
           </div>
 
         </div>

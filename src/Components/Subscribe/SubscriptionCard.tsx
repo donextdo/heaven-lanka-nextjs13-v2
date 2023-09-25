@@ -5,7 +5,7 @@ import InputField from "./InputField";
 
 const SubscriptionCard = () => {
   return (
-    <div className=" w-full md:w-[1170px] mx-auto bg-[#FA7436] rounded-[20px] py-[40px] px-4 md:px-0 space-y-20">
+    <div className=" w-full xl:w-[1170px] mx-auto bg-[#FA7436] rounded-[20px] py-[40px] px-4 md:px-0 space-y-20">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center md:gap-[60px] space-y-4 md:space-y-0 md:space-x-6">
         <div className="hidden md:w-[60%]">
           <Image src={Bg} alt="item1" className="object-cover w-full h-full" />
