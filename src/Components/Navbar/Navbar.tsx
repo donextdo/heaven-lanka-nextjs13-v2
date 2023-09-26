@@ -180,7 +180,7 @@ const Navbar = () => {
             <div className="hidden md:flex md:space-x-4 border-b-[1px] border-white">
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white  ${
-                  selected === 1 ? "font-bold border-white" : ""
+                  selected === 1 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(1);
@@ -191,7 +191,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 2 ? "font-bold border-white" : ""
+                  selected === 2 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(2);
@@ -202,7 +202,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white  ${
-                  selected === 3 ? "font-bold border-white" : ""
+                  selected === 3 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(3);
@@ -213,7 +213,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white  ${
-                  selected === 4 ? "font-bold border-white" : ""
+                  selected === 4 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(4);
@@ -224,7 +224,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white  ${
-                  selected === 5 ? "font-bold border-white" : ""
+                  selected === 5 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(5);
@@ -235,7 +235,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white  ${
-                  selected === 6 ? "font-bold border-white" : ""
+                  selected === 6 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(6);
@@ -246,12 +246,12 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-            <div
-              className={`hidden px-2 py-2 border-b-[4px] border-transparent text-white text-[18px] text-center`}
-            >
-              +971 588 781 993
-              <div className={` text-white text-[12px]`}>Call Now</div>
-            </div>
+          <div
+            className={`hidden md:block px-2 py-4 border-b-[4px] border-transparent text-white text-[18px] text-center`}
+          >
+            +971 588 781 993
+            <div className={` text-white text-[12px]`}>Call Now</div>
+          </div>
         </div>
         {/* Mobile menu */}
         <div
@@ -323,12 +323,10 @@ const Navbar = () => {
           >
             Explore
           </button>
-          <div
-              className={`block w-full text-white text-right py-2`}
-            >
-              +971 588 781 993
-              <div className={` text-white text-[12px]`}>Call Now</div>
-            </div>
+          <div className={`block w-full text-white text-right py-2`}>
+            +971 588 781 993
+            <div className={` text-white text-[12px]`}>Call Now</div>
+          </div>
         </div>
       </div>
     </div>
