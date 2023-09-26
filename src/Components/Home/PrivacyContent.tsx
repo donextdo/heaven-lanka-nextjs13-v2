@@ -5,6 +5,7 @@ import SubscriptionCard from "../Subscribe/SubscriptionCard";
 import QuotesCard from "../Quotes/QuotesCard";
 import profile1 from "../../../assets/AboutUs/335322207_877656710200879_3485686787873823548_n 1.png";
 import SimpleChatbot from "../ChatBot/Chatbot";
+import QuoteForm from "../Quotes/QuateForm";
 
 const PrivacyContent = () => {
   return (
@@ -178,10 +179,13 @@ const PrivacyContent = () => {
           </p>
         </div>
       </div>
+
+      <div className="container mx-auto px-4 md:px-20 mt-8">
+        <QuoteForm/>
+      </div>
       <div className="container mx-auto px-4 md:px-20 mt-8">
         <SubscriptionCard />
       </div>
-
       <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] md:h-[100px] -z-50 relative">
         
         </div>

@@ -1,4 +1,4 @@
-// 'use client'; 
+// 'use client';
 // import Image from "next/image";
 // import { useState } from "react";
 // import { useRouter } from "next/navigation";
@@ -36,7 +36,7 @@
 //             <div className="mr-8">
 //               <button
 //                 className={`px-4 py-2 border-b-[4px] border-transparent text-white  ${
-//                   selected === 1 ? "border-white" : "" 
+//                   selected === 1 ? "border-white" : ""
 //                 } `}
 //                 onClick={() => {
 //                   handleChange(1);
@@ -47,7 +47,7 @@
 //               </button>
 //               <button
 //                 className={`px-4 py-2 border-b-2 border-transparent text-white  ${
-//                   selected === 2 ? "border-white" : ""  
+//                   selected === 2 ? "border-white" : ""
 //                 }`}
 //                 onClick={() => {
 //                   handleChange(2);
@@ -58,7 +58,7 @@
 //               </button>
 //               <button
 //                 className={`px-4 py-2 border-b-2 border-transparent text-white  ${
-//                   selected === 3 ? "border-white" : "" 
+//                   selected === 3 ? "border-white" : ""
 //                 }`}
 //                 onClick={() => {
 //                   handleChange(3);
@@ -115,15 +115,13 @@
 
 // export default NavbarOne;
 
-
-// 'use client'; 
+// 'use client';
 // import Image from "next/image";
 // import { useState } from "react";
 // import { useRouter } from "next/navigation";
 
 // import logo from "../../../assets/Logo/logo.png";
 // import { log } from "console";
-
 
 // let navoption:number;
 
@@ -132,16 +130,14 @@
 
 //   const [selected, setSelected] = useState(2);
 //   console.log('selecte' , selected);
-  
+
 // console.log("nav" , navoption);
 
 //   const handleChange = (id: number) => {
 //     navoption = id;
 //     setSelected(id);
-    
+
 //   };
-
-
 
 //   return (
 //     <div className=" bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
@@ -245,34 +241,30 @@
 
 // export default NavbarOne;
 
-
-'use client';
+"use client";
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import logo from "../../../assets/Logo/logo.png";
 
-let navoption:number;
+let navoption: number;
 const Navbar = () => {
   const router = useRouter();
 
-  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-
   const [selected, setSelected] = useState(navoption ? navoption : 1);
-    console.log('selecte' , selected);
-    
-  console.log("nav" , navoption);
-  
-    const handleChange = (id: number) => {
-      navoption = id;
-      setSelected(id);
-      
-    };
+  console.log("selecte", selected);
+
+  console.log("nav", navoption);
+
+  const handleChange = (id: number) => {
+    navoption = id;
+    setSelected(id);
+  };
   const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen); 
+    setMobileMenuOpen(!mobileMenuOpen);
     // Toggle the mobile menu logic
   };
 
@@ -303,9 +295,11 @@ const Navbar = () => {
                 ☰
               </button>
             </div>
-            <div className="hidden md:flex md:space-x-4">
+            <div className="hidden md:flex md:space-x-4 border-b-[1px] border-white">
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 1 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 1 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(1);
                   router.push("/");
@@ -314,7 +308,9 @@ const Navbar = () => {
                 Home
               </button>
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 2 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 2 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(2);
                   router.push("/tourPage");
@@ -323,7 +319,9 @@ const Navbar = () => {
                 Tours
               </button>
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 3 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 3 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(3);
                   router.push("/aboutUspage");
@@ -332,7 +330,9 @@ const Navbar = () => {
                 About
               </button>
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 4 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 4 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(4);
                   router.push("/comingSoonPage");
@@ -341,7 +341,9 @@ const Navbar = () => {
                 Testimonials
               </button>
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 5 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 5 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(5);
                   router.push("/comingSoonPage");
@@ -350,7 +352,9 @@ const Navbar = () => {
                 Contact
               </button>
               <button
-                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 6 ? "font-bold border-white" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
+                  selected === 6 ? "font-bold border-white" : ""
+                }`}
                 onClick={() => {
                   handleChange(6);
                   router.push("/comingSoonPage");
@@ -360,6 +364,12 @@ const Navbar = () => {
               </button>
             </div>
           </div>
+            <div
+              className={`hidden px-2 py-2 border-b-[4px] border-transparent text-white text-[18px] text-center`}
+            >
+              +971 588 781 993
+              <div className={` text-white text-[12px]`}>Call Now</div>
+            </div>
         </div>
         {/* Mobile menu */}
         <div
@@ -433,6 +443,12 @@ const Navbar = () => {
           >
             Explore
           </button>
+          <div
+              className={`block w-full text-white text-right py-2`}
+            >
+              +971 588 781 993
+              <div className={` text-white text-[12px]`}>Call Now</div>
+            </div>
         </div>
       </div>
     </div>
@@ -440,4 +456,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

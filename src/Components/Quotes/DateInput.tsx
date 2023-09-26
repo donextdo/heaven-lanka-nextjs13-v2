@@ -15,27 +15,33 @@ const DateInput = () => {
         <label htmlFor="travellingDate">Travelling Date</label>
       </div>
       <div className="flex gap-2">
-        <input
-          type="date"
-          id="travellingDate"
-          name="travellingDate"
-          min={new Date().toISOString().split("T")[0]}
-          value={selectedArrivalDate}
-          onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
-          className="w-[50%] md:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
-        />
-        <input
-          type="date"
-          id="returnDate"
-          name="returnDate"
-          min={new Date().toISOString().split("T")[0]}
-          value={selectedArrivalDate}
-          onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
-          className="w-[50%] md:w-[180px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
-        />
+        <div className="h-10 rounded-md border border-gray-300 ">
+          <input
+            type="date"
+            id="travellingDate"
+            name="travellingDate"
+            min={new Date().toISOString().split("T")[0]}
+            value={selectedArrivalDate}
+            onChange={(e: { target: { value: SetStateAction<string> } }) =>
+              setSelectedArrivalDate(e.target.value)
+            }
+            className="bg-transparent h-10 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+          />
+          <input
+            type="date"
+            id="returnDate"
+            name="returnDate"
+            min={new Date().toISOString().split("T")[0]}
+            value={selectedArrivalDate}
+            onChange={(e: { target: { value: SetStateAction<string> } }) =>
+              setSelectedArrivalDate(e.target.value)
+            }
+            className="bg-transparent h-10 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+          />
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default DateInput;

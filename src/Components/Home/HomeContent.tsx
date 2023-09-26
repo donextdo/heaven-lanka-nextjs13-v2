@@ -223,8 +223,8 @@ const HomeContent = () => {
         </div>
       </div> */}
 
-      <div className="bg-[#077B83] bg-opacity-10 mt-8  md:mt-28">
-        <div className="container mx-auto  md:px-80 px-8 py-8 flex flex-col md:flex-row items-center">
+      <div className="bg-[#077B83] bg-opacity-10 mt-8  md:mt-28 ">
+        <div className="container mx-auto  md:px-80 px-8 py-8 flex md:flex-row items-center">
           {/* <div className="md:left-0 md:mr-8">
       <Image src={Bg} alt="item1" className="w-full" />
     </div> */}
@@ -233,7 +233,7 @@ const HomeContent = () => {
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
                 Voices <span className="text-[#077B83]">of Delight:</span>
               </h1>
-              <p className="text-base md:text-lg text-[#222222]">
+              <p className="text-base md:text-lg text-[#222222] md:flex-row lg:flex-row">
                 Hear What Our Customers Have to Say!
               </p>
             </div>
