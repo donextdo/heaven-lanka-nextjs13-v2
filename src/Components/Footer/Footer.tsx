@@ -151,6 +151,9 @@ const FooterView = () => {
           <div className="mt-[20px] cursor-pointer hover:opacity-75"
           onClick={() => router.push('./privacyPage')}
           >Privacy & Policy</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75"
+          onClick={() => router.push('./cancellationPoliciesPage')}
+          >Cancellation Policies</div>
         </div>
 
         <div className="col-span-1 md:col-span-1 text-center md:text-left md:text-sm">
