@@ -2,7 +2,7 @@ import SubButton from "./button";
 
 const InputField = () => {
   return (
-    <div className="flex flex-row w-full md:flex-row items-center md:w-[625px] bg-white rounded-[10px] pr-2">
+    <div className="flex flex-row w-full md:flex-row items-center lg:w-[625px] md:w-[550px] bg-white rounded-[10px] pr-2">
       <input
         type="email"
         name="email"

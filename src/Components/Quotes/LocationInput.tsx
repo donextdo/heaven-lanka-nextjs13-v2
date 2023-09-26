@@ -6,7 +6,7 @@ const LocationInput = () => {
         </div>
         <select
           id="location"
-          className="w-full md:w-[200px] bg-transparent h-10 rounded-md outline-none border border-white-300 bg-opacity-0 text-sm md:text-white text:black md:px-4 pl-3 cursor-pointer"
+          className="w-full xl:w-[200px] bg-transparent h-10 rounded-md outline-none border border-white-300 bg-opacity-0 text-sm xl:text-white text:black xl:px-4 pl-3 cursor-pointer"
         >
           <option value="Colombo">Colombo</option>
           <option value="Galle">Galle</option>

@@ -6,7 +6,7 @@ const DurationInput = () => {
         </div>
         <select
           id="guests"
-          className="w-full md:w-[150px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3"
+          className="w-full xl:w-[150px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black xl:text-white pl-3"
         >
           <option value="1" className="text-black"> 1 Guest</option>
           <option value="2" className="text-black"> 2 Guests</option>

@@ -152,7 +152,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-gradient-to-t from-transparent to-teal-700">
-      <div className="container mx-auto px-4 md:px-[180px] md:py-8 py-3">
+      <div className="container mx-auto px-4 xl:px-[180px] md:py-8 py-3">
         <div className="flex justify-between items-center">
           <div className="w-28 md:w-36">
             <Image
@@ -228,7 +228,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => {
                   handleChange(5);
-                  router.push("/comingSoonPage");
+                  router.push("/contactUsPage");
                 }}
               >
                 Contact
@@ -307,7 +307,7 @@ const Navbar = () => {
             }`}
             onClick={() => {
               handleChange(5);
-              router.push("/comingSoonPage");
+              router.push("/contactUsPage");
             }}
           >
             Contact
