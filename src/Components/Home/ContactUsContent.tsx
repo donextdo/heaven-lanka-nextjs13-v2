@@ -7,7 +7,6 @@ import Tel from "../../../assets/ContactUs/Asset 5@3x.png";
 import Email from "../../../assets/ContactUs/Asset 4@3x.png";
 import Location from "../../../assets/ContactUs/Asset 6@3x.png";
 import Map from "../../../assets/ContactUs/image 22.png";
-import profile1 from "../../../assets/AboutUs/335322207_877656710200879_3485686787873823548_n 1.png";
 import SimpleChatbot from "../ChatBot/Chatbot";
 import ContactForm from "../Contact/ContactForm";
 
