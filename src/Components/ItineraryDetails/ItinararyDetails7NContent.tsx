@@ -35,17 +35,17 @@ import Bentota5 from "../../../assets/Tour/7N/5.png";
 const ItinaryDetails7NContent = () => {
   return (
     <div className="flex flex-col justify-start  mt-[100PX]">
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
-       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px]" />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83] ">
+       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px]" />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 01 - <span className="text-[#077B83]">Dambulla & Sigiriya</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -88,7 +88,7 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -175,7 +175,7 @@ const ItinaryDetails7NContent = () => {
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Dambulla & Sigiriya Highlights
         </h1>
@@ -186,17 +186,17 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       {/* ----------------Day 2----------------- */}
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
-       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px]" />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83] ">
+       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px]" />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 02 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -238,7 +238,7 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -323,7 +323,7 @@ const ItinaryDetails7NContent = () => {
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Kandy Highlights
         </h1>
@@ -334,17 +334,17 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       {/* ----------------day 03------------ */}
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83]  ">
-       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px]" />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83]  ">
+       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px]" />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 03 - <span className="text-[#077B83]"> Nuwara Eliya</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -383,7 +383,7 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -446,7 +446,7 @@ const ItinaryDetails7NContent = () => {
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Nuwara Eliya Highlights
         </h1>
@@ -458,17 +458,17 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       {/* --------------------day04---------------------- */}
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83]  ">
-       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] " />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83]  ">
+       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] " />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 04 - <span className="text-[#077B83]"> Mirissa</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -512,7 +512,7 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -638,7 +638,7 @@ const ItinaryDetails7NContent = () => {
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className=" mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Mirissa Highlights
         </h1>
@@ -650,17 +650,17 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       {/* ---------------day 05-------- */}
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83]  ">
-       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] " />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83]  ">
+       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] " />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 05 -<span className="text-[#077B83]">Bentota</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -699,7 +699,7 @@ const ItinaryDetails7NContent = () => {
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -774,7 +774,7 @@ and explore the historic Madu Ganga Temple.
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Ella Highlights
         </h1>
@@ -786,17 +786,17 @@ and explore the historic Madu Ganga Temple.
         </div>
       </div>
       {/* --------------06 day---------- */}
-      <div className="flex flex-col justify-start items-left  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
-       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] " />
+      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83] ">
+       <div className="mt-[90px] flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] " />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 06 & 07 - <span className="text-[#077B83]"> Colombo</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -832,7 +832,7 @@ and explore the historic Madu Ganga Temple.
         </div>
       </div>
       <div>
-          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+          <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
           <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
@@ -879,7 +879,7 @@ and explore the historic Madu Ganga Temple.
           </div>
         </div>
       </div>
-       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  md:border-dashed md:border-l-[3px] md:border-[#077B83] ">
+       <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83] ">
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Colombo Highlights
         </h1>
@@ -890,8 +890,8 @@ and explore the historic Madu Ganga Temple.
           <Image src={image14} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
-      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center  md:border-dashed md:border-l-[3px] md:border-[#077B83] "  >
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] mt-[90px]"  />
+      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center justify-start  border-dashed border-l-[3px] border-[#077B83] "  >
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] mt-[90px]"  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left mt-[90px] ">End</h1>
       </div>
     </div>
