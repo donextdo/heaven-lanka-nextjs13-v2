@@ -197,7 +197,7 @@ const QuoteForm = () => {
                       as="select"
                       id="guests.adl"
                       name="guests.adl"
-                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%] border-r-[2px] border-solid border-[#444444] rounded-tr-none rounded-br-none"
+                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] w-[50%] border-r-[2px] border-solid border-[#444444] rounded-tr-none rounded-br-none"
                     >
                       <option>Adult</option>
                       <option value="1">1 Adult</option>
@@ -215,7 +215,7 @@ const QuoteForm = () => {
                       as="select"
                       id="guests.chl"
                       name="guests.chl"
-                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%]"
+                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] w-[50%]"
                     >
                       <option>Child</option>
                       <option value="1">1 Child</option>
