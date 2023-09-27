@@ -22,16 +22,16 @@ const ItinaryDetailsContent = () => {
   return (
     <div className="flex flex-col  justify-start  mt-[100PX]">
      <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83] ">
-        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-        <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] "  />
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center justify-start">
+        <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] "  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 01 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col lg:flex-row gap-[50px] mt-[40px] px-[20px] lg:pl-[70px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -162,7 +162,7 @@ const ItinaryDetailsContent = () => {
         <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Kandy Highlights
         </h1>
-        <div className="flex flex-col md:flex-row gap-[30px]">
+        <div className="flex flex-col lg:flex-row gap-[30px]">
           <Image src={Image1} alt="item1" className="w-[355px]" />
           <Image src={image2} alt="item1" className="w-[355px]" />
           <Image src={image3} alt="item1" className="w-[355px]" />
@@ -171,16 +171,16 @@ const ItinaryDetailsContent = () => {
 
 
       <div className="flex flex-col justify-start items-left   border-dashed border-l-[3px] border-[#077B83] ">
-      <div className="flex flex-row gap-[10px] mt-[90px] md:gap-[30px] items-center md:justify-start justify-center">
-      <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] "  />
+      <div className="flex flex-row gap-[10px] mt-[90px] md:gap-[30px] items-center justify-start">
+      <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] ml-[-11px] md:ml-[-23px] "  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 02 - <span className="text-[#077B83]"> Colombo</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col lg:flex-row gap-[50px] mt-[40px] px-[20px] lg:pl-[70px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -267,15 +267,15 @@ const ItinaryDetailsContent = () => {
         <h1 className="md:text-[36px] mt-[90px] text-[24px] font-bold font-[volkhov] text-left">
           Colombo Highlights
         </h1>
-        <div className="flex flex-col md:flex-row gap-[30px]">
+        <div className="flex flex-col lg:flex-row gap-[30px]">
           <Image src={image11} alt="item1" className="w-[355px]" />
           <Image src={image12} alt="item1" className="w-[355px]" />
           <Image src={image13} alt="item1" className="w-[355px]" />
           <Image src={image14} alt="item1" className="w-[355px]" />
         </div>
       </div>
-      <div className="flex flex-row gap-[10px]  md:gap-[30px]  border-dashed border-l-[3px] border-[#077B83] items-center md:justify-start justify-center ">
-          <Image src={image9} alt="item1" className="w-[20px] mt-[50px] md:w-[47px] md:ml-[-23px] md:mt-[90px] "  />
+      <div className="flex flex-row gap-[10px]  md:gap-[30px]  border-dashed border-l-[3px] border-[#077B83] items-center justify-start">
+          <Image src={image9} alt="item1" className="w-[20px] mt-[50px] md:w-[47px] ml-[-11px] md:ml-[-23px] md:mt-[90px] "  />
           <h1 className="md:text-[44px] mt-[50px] md:mt-[90px] md:w-full text-[20px] font-bold font-[volkhov] text-left">End</h1>
       </div>
     </div>

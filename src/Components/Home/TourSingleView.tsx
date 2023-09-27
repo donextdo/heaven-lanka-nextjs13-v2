@@ -24,7 +24,7 @@ const TourSingleViewContent = () => {
 
       <div className="container mx-auto px-20 mt-[40px] flex flex-col justify-center items-center pb-[60px]"></div>
       
-      <div className="container md:mx-auto md:px-40 mt-10 md:mt-[200px]">
+      <div className="md:container md:mx-auto px-10 md:px-40 mt-10 md:mt-[200px] ">
         <div className="flex items-center justify-center ">
           <nav className="flex flex-row justify-end ">
             <div className="w-[200px]  2xl:w-[650px] md:w-[400px] sm:w-[300px] border-b-[2px] border-[black] "></div>
