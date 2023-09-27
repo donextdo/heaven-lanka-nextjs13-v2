@@ -9,15 +9,15 @@ import SimpleChatbot from "../ChatBot/Chatbot";
 const AboutUsContent = () => {
   return (
     <div className="">
-       <div className="flex justify-center mt-8 md:-mt-[185px] px-[20px]">
+       <div className="flex justify-center mt-8 xl:-mt-[185px] px-[20px]">
         <QuotesCard />
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] lg:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Story
         </h1>
-        <div className=" flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className=" flex flex-col md:items-start lg:ml-[150px] lg:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             At Heaven Lanka, our story is one of passion, discovery, and a deep
             love for travel. It all began with a group of adventurous souls who
@@ -67,10 +67,10 @@ const AboutUsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] lg:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Vision
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start lg:ml-[150px] lg:mr-[100px]">
           <p className="text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Our vision at Heaven Lanka is to be the gateway to unforgettable
             journeys, where wanderlust meets curated experiences. We envision a
@@ -87,10 +87,10 @@ const AboutUsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] lg:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Mission
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start lg:ml-[150px] lg:mr-[100px]">
           <p className=" text-[16px]  md:text-[20px]  text-left leading-[32px] text-[#222222]">
             At Heaven Lanka, our mission is to curate exceptional travel
             experiences that ignite a sense of wonder, foster cultural
@@ -108,67 +108,6 @@ const AboutUsContent = () => {
         </div>
       </div>
 
-      {/* <div className="mt-[90px] pt-[40px] pb-[70px]  bg-[#077B83] bg-opacity-[12%] flex flex-col items-center justify-center">
-        <div className="container mx-auto pl-[200px] pr-[200px] flex flex-col">
-          <h1 className="text-[48px] font-bold font-[volkhov]">
-            Unveiling the
-            <span className="text-[#077B83]">
-              {" "}
-              Visionary Behind Heaven Lanka!
-            </span>
-          </h1>
-        </div>
-        <div className="container mx-auto pl-[200px] pr-[200px] flex flex-row gap-[60px] mt-[30px]">
-          <div className="flex flex-col  items-center ">
-            <Image
-              src={profile1}
-              alt="item1"
-              className="rounded-[30px] pl-[20px]"
-            />
-            <span className=" mt-[45px] text-[40px] font-[700] leading-[32px]">
-              Harsha De Silva
-            </span>
-            <span className=" text-[20px] font-[700] leading-[32px]">
-              Founder & CEO{" "}
-            </span>
-          </div>
-          <div className="w-[704px]">
-            <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              Meet Harsha De Silva, the driving force and guiding light of our
-              travel agency. With an unwavering passion for exploration and a
-              deep love for Sri Lanka, Harsha has dedicated their life to
-              creating unforgettable travel experiences.
-            </p>
-
-            <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              As an experienced traveler and industry expert, Harsha brings a
-              wealth of knowledge and expertise to our team. Their profound
-              understanding of the diverse landscapes, rich culture, and hidden
-              gems of Sri Lanka allows us to curate exceptional itineraries that
-              capture the essence of this remarkable destination.
-            </p>
-            <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              Beyond their expertise, Harsha is committed to providing
-              unparalleled service and exceeding the expectations of our valued
-              clients. With a genuine belief in the transformative power of
-              travel, they strive to create moments that leave a lasting impact
-              and forge lifelong memories.
-            </p>
-            <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              Under the visionary leadership of Harsha, Heaven Lanka continues
-              to flourish as a trusted name in the travel industry. Their
-              dedication to authenticity, sustainability, and personalized
-              experiences is at the core of everything we do.
-            </p>
-            <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              Join us as we embark on a journey shaped by Harsha&apos;s passion,
-              expertise, and unwavering commitment to delivering extraordinary
-              travel experiences.
-            </p>
-          </div>
-        </div>
-      </div> */}
-
 <div className="mt-[90px] pt-[40px] pb-[70px] bg-[#077B83] bg-opacity-[12%] flex flex-col items-center justify-center">
   <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col">
     <h1 className="text-[24px] md:text-[48px] font-bold font-[volkhov]">
@@ -179,8 +118,8 @@ const AboutUsContent = () => {
       </span>
     </h1>
   </div>
-  <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col md:flex-row gap-[20px] md:gap-[60px] mt-[30px]">
-    <div className="flex flex-col items-center md:items-start">
+  <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col lg:flex-row gap-[20px] md:gap-[60px] mt-[30px]">
+    <div className="flex flex-col items-center lg:items-start">
       <Image
         src={profile1}
         alt="item1"
@@ -193,7 +132,7 @@ const AboutUsContent = () => {
         Founder & CEO
       </span>
     </div>
-    <div className="md:w-[700px] flex flex-col ">
+    <div className="lg:w-[700px] flex flex-col ">
       <p className="text-[14px] md:text-[20px] text-left leading-[24px] md:leading-[32px] text-[#222222]">
         Meet Harsha De Silva, the driving force and guiding light of our
         travel agency. With an unwavering passion for exploration and a
@@ -233,13 +172,13 @@ const AboutUsContent = () => {
 
 
       <div className="container mt-[20px] md:mt-[40px] mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col">
-    <h1 className="text-[24px] md:text-[48px] font-bold font-[volkhov]">
+    <h1 className="text-[24px] md:text-[48px] font-bold font-[volkhov] text-center lg:text-start">
           {" "}
           Meet Our <span className="text-[#077B83]">Extraordinary Team</span>
         </h1>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-[30px] items-center mt-[50px] pb-20 md:pb-[330px]">
+      <div className="flex flex-col lg:flex-row justify-center gap-[30px] items-center mt-[50px] pb-20 lg:pb-[330px]">
         <div className="flex flex-col  items-center  ">
           <Image
             src={profile1}

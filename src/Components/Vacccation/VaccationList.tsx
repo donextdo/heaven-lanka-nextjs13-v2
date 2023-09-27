@@ -131,7 +131,7 @@ const VaccationList = () => {
   return (
     <div>
       <div className='flex flex-col items-center mt-4'>
-        <div className='md:flex md:justify-center md:gap-4 md:items-center'>
+        <div className='lg:flex lg:justify-center lg:gap-4 lg:items-center'>
           {/* {VaccationLists.map((item, index) => (
             <VaccationCard key={index} item={item} />
           ))} */}

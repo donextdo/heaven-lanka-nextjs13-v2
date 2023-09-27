@@ -66,10 +66,10 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
 
   return (
     <div
-      className='md:h-[340px] md:w-52 w-full shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer hover:md:shadow-2xl   '
+      className='lg:h-[340px] lg:w-52 w-full shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer hover:md:shadow-2xl   '
       onClick={() => router.push(pathName)}
     >
-      <div className='absolute pt-[10px] pl-[140px] md:pl-[120px]'>
+      <div className='absolute pt-[10px] pl-[140px] lg:pl-[120px]'>
         <button className="w-[72px] h-[20px] bg-[#077B83] rounded-[10px] text-[#FFFFFF] text-[12px]">
           {duration}
         </button>
@@ -93,8 +93,8 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
         </div>
         <div>{rate}</div>
       </div>
-      <div className='flex flex-row gap-[8px] py-2 pr-3 md:pr-0 '>
-        <div className='pl-[160px] md:pl-[95px]'>From</div>
+      <div className='flex flex-row gap-[8px] py-2 pr-3 lg:pr-0 '>
+        <div className='pl-[160px] lg:pl-[95px]'>From</div>
         <div>
           <button className="w-[52px] h-[28px] bg-[#FA7436] rounded-[10px] text-[#FFFFFF] text-sm">
             {price}

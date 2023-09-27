@@ -27,7 +27,7 @@ interface FormValues {
   toDate: string;
   adultCount: number;
   childCount: number;
-  nationality:string;
+  nationality: string;
   specialNote: string;
 }
 
@@ -40,7 +40,7 @@ const initialValues: FormValues = {
   toDate: "",
   adultCount: 0,
   childCount: 0,
-  nationality:"",
+  nationality: "",
   specialNote: "",
 };
 const validateForm = (values: FormValues): FormikErrors<FormValues> => {
@@ -85,12 +85,12 @@ const QuoteForm = () => {
   };
 
   return (
-    <div className="w-full md:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
+    <div className="w-full xl:w-[1170px] mx-auto p-4  md:py-8 md:px-20 xl-px-4 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
       <div className=" flex flex-col justify-center items-center   pb-10">
         <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col justify-center items-center">
           Catch Your Dream:
         </h1>
-        <p className="md:w-[980px] flex flex-col justify-center items-center  text-[20px]">
+        <p className="xl:w-[980px] flex flex-col justify-center items-center  text-[20px]">
           Request a Tailored Quote!
         </p>
       </div>
@@ -100,9 +100,13 @@ const QuoteForm = () => {
         onSubmit={handleSub}
       >
         {({ values, errors, handleChange, handleSubmit }) => (
-          <Form noValidate onSubmit={handleSubmit}>
+          <Form
+            noValidate
+            onSubmit={handleSubmit}
+            className="w-[100%] xl:w-auto"
+          >
             <div className="flex flex-col gap-8">
-              <div className="flex flex-col md:flex-row gap-10">
+              <div className="flex flex-col xl:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="firstName">
                     First Name:
@@ -111,12 +115,7 @@ const QuoteForm = () => {
                     type="text"
                     id="firstName"
                     name="firstName"
-                    style={{
-                      height: "64.04px",
-                      width: "332.42px",
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="firstName" component="div" />
                 </div>
@@ -129,17 +128,12 @@ const QuoteForm = () => {
                     type="text"
                     id="lastName"
                     name="lastName"
-                    style={{
-                      height: "64.04px",
-                      width: "332.42px",
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="lastName" component="div" />
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row gap-10">
+              <div className="flex flex-col xl:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="email">
                     Email:
@@ -148,12 +142,7 @@ const QuoteForm = () => {
                     type="email"
                     id="email"
                     name="email"
-                    style={{
-                      height: "64.04px",
-                      width: "332.42px",
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="email" component="div" />
                 </div>
@@ -166,75 +155,51 @@ const QuoteForm = () => {
                     type="tel"
                     id="phoneNumber"
                     name="phoneNumber"
-                    style={{
-                      height: "64.04px",
-                      width: "332.42px",
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="phoneNumber" component="div" />
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row gap-10">
+              <div className="flex flex-col xl:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="email">
-                  Arrival Date:
+                    Arrival Date:
                   </label>
                   <Field
-                      type="date"
-                      id="fromDate"
-                      name="fromDate"
-                      style={{
-                        height: "64.04px",
-                        width: "332.42px",
-                        borderRadius: "5px 0 0 5px",
-                        padding: "10px",
-                      }}
-                    />
-                   <ErrorMessage name="fromDate" component="div" />
+                    type="date"
+                    id="fromDate"
+                    name="fromDate"
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
+                  />
+                  <ErrorMessage name="fromDate" component="div" />
                 </div>
 
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="phoneNumber">
-                  Departure Date:
+                    Departure Date:
                   </label>
                   <Field
-                      type="date"
-                      id="toDate"
-                      name="toDate"
-                      style={{
-                        height: "64.04px",
-                        width: "332.42px",
-                        borderRadius: "0 5px 5px 0",
-                        padding: "10px",
-                       
-                      }}
-                    />
-                    <ErrorMessage name="toDate" component="div" />
+                    type="date"
+                    id="toDate"
+                    name="toDate"
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
+                  />
+                  <ErrorMessage name="toDate" component="div" />
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row gap-10 ">
-              
+              <div className="flex flex-col xl:flex-row gap-10 ">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="guests">
-                  Number of guests:
+                    Number of guests:
                   </label>
                   <div className="flex">
                     <Field
                       as="select"
                       id="guests.adl"
                       name="guests.adl"
-                      style={{
-                        height: "64.04px",
-                        width: "166.21px",
-                        borderRadius: "5px 0 0 5px",
-                        borderRadiusRight:"none",
-                        padding: "10px",
-                        borderRight:"2px solid #444444"
-                      }}
+                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%] border-r-[2px] border-solid border-[#444444] rounded-tr-none rounded-br-none"
                     >
-                      <option >Adult</option>
+                      <option>Adult</option>
                       <option value="1">1 Adult</option>
                       <option value="2">2 Adults</option>
                       <option value="3">3 Adults</option>
@@ -250,16 +215,9 @@ const QuoteForm = () => {
                       as="select"
                       id="guests.chl"
                       name="guests.chl"
-                      style={{
-                        height: "64.04px",
-                        width: "166.21px",
-                        borderRadius: "0 5px 5px 0",
-                        
-                        padding: "10px",
-                     
-                      }}
+                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%]"
                     >
-                       <option >Child</option>
+                      <option>Child</option>
                       <option value="1">1 Child</option>
                       <option value="2">2 Child</option>
                       <option value="3">3 Child</option>
@@ -271,23 +229,16 @@ const QuoteForm = () => {
                     </Field>
                     <ErrorMessage name="guests.chl" component="div" />
                   </div>
-
-               
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="font-semibold" htmlFor="nationality">
-                  Nationality:
+                    Nationality:
                   </label>
                   <Field
                     type="text"
                     id="nationality"
                     name="nationality"
-                    style={{
-                      height: "64.04px",
-                      width: "332.42px",
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
+                    className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="nationality" component="div" />
                 </div>
@@ -302,18 +253,17 @@ const QuoteForm = () => {
                   id="specialNote"
                   name="specialNote"
                   style={{
-                    
                     borderRadius: "5px",
                     padding: "5px",
                   }}
-                  className="md:w-[704.48px] w-full md:h-[99.62px] h-[64.05px] "
+                  className="xl:w-[704.48px] w-full lg:h-[99.62px] h-[64.05px] "
                 />
                 <ErrorMessage name="specialNote" component="div" />
               </div>
 
               <button
                 type="submit"
-                className="md:w-[704.48px] w-full md:h-[99.62px] h-[64.05px] bg-[#077B83] rounded-[5px] text-[24px] md:text-[40px] leading-[48px] text-[white] font-bold flex flex-row items-center justify-center"
+                className="xl:w-[704.48px] w-full lg:h-[99.62px] h-[64.05px] bg-[#077B83] rounded-[5px] text-[24px] md:text-[40px] leading-[48px] text-[white] font-bold flex flex-row items-center justify-center"
               >
                 {isLoading ? (
                   <span className="flex flex-row gap-[30px] items-center">
@@ -323,35 +273,6 @@ const QuoteForm = () => {
                 ) : (
                   "Get My Quote"
                 )}
-                {/* <style jsx>
-                  {`
-                    button {
-                      display: flex;
-                      flex-direction: row;
-                      gap: 10px;
-                      align-items: center;
-                      justify-content: center;
-                      padding: 10px 20px;
-                      cursor: ${isLoading ? "not-allowed" : "pointer"};
-                      opacity: ${isLoading ? 0.7 : 1};
-                      transition: opacity 0.3s;
-                    }
-
-                    .spin {
-                      animation: spin 1s linear infinite;
-                      margin-right: 5px;
-                    }
-
-                    @keyframes spin {
-                      from {
-                        transform: rotate(0deg);
-                      }
-                      to {
-                        transform: rotate(360deg);
-                      }
-                    }
-                  `}
-                </style> */}
               </button>
             </div>
           </Form>
@@ -361,4 +282,4 @@ const QuoteForm = () => {
   );
 };
 
-export default QuoteForm;
+export default QuoteForm;

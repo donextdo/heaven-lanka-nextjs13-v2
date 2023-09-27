@@ -3,6 +3,7 @@ import FooterView from "../Footer/Footer";
 import SubscriptionCard from "../Subscribe/SubscriptionCard";
 import QuotesCard from "../Quotes/QuotesCard";
 import SimpleChatbot from "../ChatBot/Chatbot";
+import QuoteForm from "../Quotes/QuateForm";
 
 const CancellationContent = () => {
   return (
@@ -65,6 +66,9 @@ const CancellationContent = () => {
             force majeure.
           </p>
         </div>
+      </div>
+      <div className="container mx-auto px-4 md:px-20 mt-8">
+        <QuoteForm/>
       </div>
       <div className="container mx-auto px-4 md:px-20 mt-8">
         <SubscriptionCard />

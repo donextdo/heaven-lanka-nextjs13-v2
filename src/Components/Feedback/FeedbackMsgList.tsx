@@ -114,7 +114,7 @@ const FeedbackMsgList = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row md:gap-[400px] items-center ">
+    <div className="flex flex-col xl:flex-row xl:gap-[400px] items-center ">
       <div className="flex gap-4 ">
         <FiArrowLeftCircle
           className="w-8 h-8 text-[#FFFFFF] fill-[#999999] cursor-pointer"
