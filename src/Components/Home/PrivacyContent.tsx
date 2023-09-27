@@ -10,14 +10,14 @@ import QuoteForm from "../Quotes/QuateForm";
 const PrivacyContent = () => {
   return (
     <div className="">
-      <div className="flex justify-center mt-8 md:-mt-[185px] px-[20px]">
+      <div className="flex justify-center mt-8 xl:-mt-[185px] px-[20px]">
         <QuotesCard />
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[50px] md:mt-[80px] space-y-4">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px]  space-y-4">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           <span className="text-[#077B83]">Privacy </span>Policy
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px] md:text-[20px] md:text-left leading-[32px] text-[#222222]">
             At Heaven Lanka, we value and respect your privacy, and this Privacy
             Policy outlines how we collect, use, and process your personal data.
@@ -27,11 +27,11 @@ const PrivacyContent = () => {
         </div>
       </div>
       ;
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           Data We Collect
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             To provide our exceptional services, Heaven Lanka may collect, use,
             and disclose your information, including personal data. Personal
@@ -66,11 +66,11 @@ const PrivacyContent = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           How We Use Your Information
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka may use the information we collect or that you provide,
             including personal data, for the following purposes:
@@ -106,11 +106,11 @@ const PrivacyContent = () => {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           Disclosure of Your Personal Information
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             We may disclose your personal information to related or unrelated
             third parties for the following purposes:
@@ -132,11 +132,11 @@ const PrivacyContent = () => {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           Data Retention
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka retains personal data for the period necessary to
             fulfill the purposes outlined in this policy, unless a longer
@@ -147,11 +147,11 @@ const PrivacyContent = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           Cookies
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka uses session cookies to keep your website login active
             during a session and to track your preferences for that session. We
@@ -162,11 +162,11 @@ const PrivacyContent = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
+      <div className="container mx-auto px-6 lg:pl-[100px] lg:pr-[100px] flex flex-col mt-[60px] space-y-4">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[50px] xl:ml-[100px]">
           Changes to This Privacy Policy
         </h1>
-        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
+        <div className="flex flex-col md:items-start md:ml-[50px] xl:ml-[150px] md:mr-[50px] xl:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             We may update this Privacy Policy as needed. In case of material
             changes affecting personal information already collected, we will

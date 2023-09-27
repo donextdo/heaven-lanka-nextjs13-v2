@@ -145,7 +145,7 @@ import SimpleChatbot from "../ChatBot/Chatbot";
 const HomeContent = () => {
   return (
     <div className="">
-      <div className="flex justify-center mt-8 md:-mt-[185px] px-[20px]">
+      <div className="flex justify-center mt-8 xl:-mt-[185px] px-[20px]">
         <QuotesCard />
       </div>
 
@@ -161,7 +161,7 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8  ">
+      <div className="container mx-auto px-4 lg:px-20 mt-8  ">
         <DetailsList />
       </div>
 
@@ -188,7 +188,7 @@ const HomeContent = () => {
         <Image src={slideArrow} alt="item1" className="w-[60px]" />
       </button>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
+      <div className="container mx-auto px-4 lg:px-20 mt-8  lg:mt-28">
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             <span className="text-[#077B83]">Sri Lanka&apos;s</span> Treasures
@@ -200,7 +200,7 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <div className="container flex items-center justify-center gap-[20px] mx-auto px-4 md:px-20 mt-8 mb-5">
+      <div className="container flex items-center justify-center gap-[20px] mx-auto px-4 lg:px-20 mt-8 mb-5">
         <button className="hidden md:block ">
           <Image src={LA} alt="item1" className="w-[17px]" />
         </button>
@@ -236,20 +236,20 @@ const HomeContent = () => {
       </div> */}
 
       <div className="bg-[#077B83] bg-opacity-10 mt-8  md:mt-28 ">
-        <div className="container mx-auto  md:px-80 px-8 py-8 flex md:flex-row items-center">
+        <div className="container mx-auto  xl:px-80 px-8 py-8 flex lg:flex-row items-center md:justify-center">
           <div className="hidden md:block absolute mt-[-200px] md:left-0 md:mr-8 ">
             <Image src={Bg} alt="item1" className="w-[150px]" />
           </div>
-          <div className="md:w-[70%]">
-            <div className="text-center md:text-left space-y-4">
+          <div className="lg:w-[70%]">
+            <div className="text-center xl:text-left space-y-4">
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
                 Voices <span className="text-[#077B83]">of Delight:</span>
               </h1>
-              <p className="text-base md:text-lg text-[#222222] md:flex-row lg:flex-row">
+              <p className="text-base md:text-lg text-[#222222]  lg:flex-row">
                 Hear What Our Customers Have to Say!
               </p>
             </div>
-            <div className="mt-4 md:mt-[-60px]">
+            <div className="mt-4 xl:mt-[-60px]">
               <FeedbackMsgList />
             </div>
           </div>
