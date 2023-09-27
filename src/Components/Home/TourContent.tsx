@@ -12,7 +12,7 @@ import QuoteForm2 from "../Quotes/QuateForm2";
 const TourContent = () => {
   return (
     <div className="">
-      <div className="flex justify-center mt-8 md:-mt-[185px] px-[20px]">
+      <div className="flex justify-center mt-8 xl:-mt-[185px] px-[20px]">
         <QuotesCard />
       </div>
       <div className="container mx-auto md:px-20  flex flex-col justify-center items-center mt-[100px] space-y-4">
@@ -66,15 +66,15 @@ const TourContent = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-[20]  p-4 md:p-10 mb-8 md:mb-16 flex flex-col justify-center items-center">
+      <div className="container mx-auto px-4 xl:px-20 p-4 lg:p-10 mb-8 lg:mb-16 flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center mt-4 md:mt-8 space-y-4">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[volkhov]">
+          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold font-[volkhov]">
             Yes!{" "}
             <span className="text-[#077B83]">
               Sri Lanka Your Ideal Vacation Destination
             </span>
           </h1>
-          <p className="w-full  text-base md:text-xl text-center leading-[24px] md:mx-[180px] md:w-[1200px]">
+          <p className="w-full  text-base md:text-xl text-center leading-[24px] md:mx-[180px] lg:mx-[0px] xl:mx-[180px] 2xl:mx-[200px] lg:w-[750px] xl:w-[1000px]">
             Escape to Sri Lanka and unlock a world of wonders. With its pristine
             beaches, lush landscapes, vibrant culture, and rich heritage, Sri
             Lanka offers an unparalleled vacation experience. Discover a land
@@ -87,7 +87,7 @@ const TourContent = () => {
           </p>
         </div>
 
-        <div className="mt-6 md:mt-8 space-y-4 md:mx-[180px]">
+        <div className="mt-6 md:mt-8 space-y-4 lg:mx-[180px] 2xl:mx-[250px]">
           <p className="text-[16px] md:text-lg leading-[24px]">
             <span className="text-[#077B83]">1. Breathtaking Beaches:</span>{" "}
             Sink your toes into soft sands, soak up the sun, and swim in
@@ -159,7 +159,7 @@ const TourContent = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-20 mt-8">
-        <QuoteForm2/>
+        <QuoteForm2 />
       </div>
 
       <div className="container mx-auto px-4 md:px-20 mt-8">
