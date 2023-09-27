@@ -19,7 +19,7 @@ const Singl4N5DPageImage = () => {
             <NavbarOne/>
         </div>
        
-        <div className="absolute flex items-center justify-center text-xs md:text-sm font-bold text-white bg-[#077B83] bg-opacity-50 w-16  md:w-[180px] md:h-[64px] md:rounded-[25px] md:text-[32px] md:font-[700] md:top-[680px]  rounded-xl bottom-2 left-1/2 transform -translate-x-1/2 ">
+        <div className="absolute flex items-center justify-center text-xs md:text-sm font-bold text-white bg-[#077B83] bg-opacity-50 w-16  md:w-[180px] md:h-[64px] md:rounded-[25px] md:text-[32px] md:font-[700]  rounded-xl bottom-2 left-1/2 transform -translate-x-1/2 ">
             4N/5D
         </div>
     

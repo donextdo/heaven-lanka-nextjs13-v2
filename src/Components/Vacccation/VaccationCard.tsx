@@ -99,7 +99,7 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
           <button className="w-[52px] h-[28px] bg-[#FA7436] rounded-[10px] text-[#FFFFFF] text-sm">
             {price}
           </button>
-          <span className='pl-2 text-[10px] text-[#444444]'>{quoted}</span>
+          <span className='pl-2 lg:pl-0 xl:pl-2 text-[10px] text-[#444444]'>{quoted}</span>
         </div>
       </div>
     </div>

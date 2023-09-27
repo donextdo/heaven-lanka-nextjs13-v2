@@ -4,8 +4,6 @@ import "./single.css";
 import FooterView from "../Footer/Footer";
 import SubscriptionCard from "../Subscribe/SubscriptionCard";
 import Inclusions from "../Inclusions/Inclusions";
-import ItinaryDetailsContent from "../TourDetails/ItinaryDetailsContent";
-import TourPageMap from "../MapView/TourPageMap";
 import SimpleChatbot from "../ChatBot/Chatbot";
 import ItinaryDetails3NContent from "../ItineraryDetails/ItineraryDetails3D";
 import QuoteForm from "../Quotes/QuateForm";
