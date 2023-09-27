@@ -108,11 +108,11 @@ const QuoteForm = ({ setShowPopup }: any) => {
           <MdClose size={40} />
         </button>
         <div className="w-full md:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
-          <div className=" flex flex-col justify-center items-center   pb-10">
-            <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col justify-center items-center">
+          <div className=" flex flex-col pb-10 ml-[270px]">
+            <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col">
               Catch Your Dream:
             </h1>
-            <p className="md:w-[980px] flex flex-col justify-center items-center  text-[20px]">
+            <p className="md:w-[980px] flex flex-col text-[20px]">
               Request a Tailored Quote!
             </p>
           </div>
