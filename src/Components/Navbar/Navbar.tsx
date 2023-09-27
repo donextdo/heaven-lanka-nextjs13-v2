@@ -247,7 +247,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className={`hidden md:block px-2 py-4 border-b-[4px] border-transparent text-white text-[18px] text-center`}
+            className={`hidden md:block border-b-[4px] border-transparent text-white text-[18px] text-center mt-[15px]`}
           >
             +971 588 781 993
             <div className={` text-white text-[12px]`}>Call Now</div>

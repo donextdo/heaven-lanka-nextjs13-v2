@@ -128,6 +128,9 @@
 
 import Image from "next/image";
 import Bg from ".././../../assets/Feedback/Asset 2@3x 2.png";
+import LA from ".././../../assets/HomePage/leftArrow.png";
+import RA from ".././../../assets/HomePage/rightArrow.png";
+import slideArrow from ".././../../assets/HomePage/Slider-btn.png";
 
 import AdventureList from "../AdventureProcess/AdventureList";
 import DetailsList from "../DetailsCard/Detailslist";
@@ -146,7 +149,7 @@ const HomeContent = () => {
         <QuotesCard />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28 " >
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28 ">
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             Why <span className="text-[#077B83]">Heaven Lanka</span>
@@ -181,6 +184,9 @@ const HomeContent = () => {
       <div className="container mx-auto px-4 md:px-20 mt-8">
         <VaccationList />
       </div>
+      <button className="hidden md:block absolute ml-[815px] mt-[20px]">
+        <Image src={slideArrow} alt="item1" className="w-[60px]" />
+      </button>
 
       <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
         <div className="text-center space-y-4">
@@ -195,7 +201,13 @@ const HomeContent = () => {
       </div>
 
       <div className="container flex items-center justify-center gap-[20px] mx-auto px-4 md:px-20 mt-8 mb-5">
+        <button className="hidden md:block ">
+          <Image src={LA} alt="item1" className="w-[17px]" />
+        </button>
         <TreasuresList />
+        <button className="hidden md:block ">
+          <Image src={RA} alt="item1" className="w-[17px]" />
+        </button>
       </div>
 
       {/* <div className="bg-[#077B83] bg-opacity-10">
@@ -225,9 +237,9 @@ const HomeContent = () => {
 
       <div className="bg-[#077B83] bg-opacity-10 mt-8  md:mt-28 ">
         <div className="container mx-auto  md:px-80 px-8 py-8 flex md:flex-row items-center">
-          {/* <div className="md:left-0 md:mr-8">
-      <Image src={Bg} alt="item1" className="w-full" />
-    </div> */}
+          <div className="hidden md:block absolute mt-[-200px] md:left-0 md:mr-8 ">
+            <Image src={Bg} alt="item1" className="w-[150px]" />
+          </div>
           <div className="md:w-[70%]">
             <div className="text-center md:text-left space-y-4">
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
@@ -266,14 +278,12 @@ const HomeContent = () => {
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] md:h-[100px] -z-50 relative">
-        
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] md:h-[100px] -z-50 relative"></div>
+      <div className="bg-[#077B83] bg-opacity-10  ">
+        <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
+          <FooterView />
         </div>
-        <div className="bg-[#077B83] bg-opacity-10  ">
-          <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
-            <FooterView />
-          </div>
-        </div>
+      </div>
       <SimpleChatbot />
     </div>
   );
