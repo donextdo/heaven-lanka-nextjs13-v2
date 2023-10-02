@@ -86,7 +86,7 @@ const QuoteForm = () => {
 
   return (
     <div className="w-full xl:w-[1170px] mx-auto p-4  md:py-8 md:px-20 xl-px-4 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
-      <div className=" flex flex-col ml-[270px] pb-10">
+      <div className=" flex flex-col ml-[270px] md:ml[200px] pb-10">
         <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col">
           Catch Your Dream:
         </h1>

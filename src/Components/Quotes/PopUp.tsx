@@ -99,8 +99,8 @@ const QuoteForm = ({ setShowPopup }: any) => {
   };
 
   return (
-    <div className="absolute inset-0 z-100 grid place-items-center bg-slate-900 bg-opacity-80">
-      <div className="py-4 px-4 mx-2 flex flex-col relative bg-white shadow-md rounded-md w-full">
+    <div className="absolute inset-0 z-100 grid place-items-center bg-slate-900 bg-opacity-80 ">
+      <div className="py-4 px-4 mx-2 flex flex-col relative bg-white shadow-md rounded-md w-full ">
         <button
           className="absolute top-8 right-10 text-gray-500 hover:text-gray-700"
           onClick={handleClose}
