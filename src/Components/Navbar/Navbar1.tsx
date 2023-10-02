@@ -270,7 +270,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
-      <div className="container mx-auto px-4 md:px-[180px] md:py-8 py-3">
+      <div className="container mx-auto px-4 xl:px-[180px] md:py-8 py-3">
         <div className="flex justify-between items-center">
           <div className="w-28 md:w-36">
             <Image
@@ -298,7 +298,7 @@ const Navbar = () => {
             <div className="hidden md:flex md:space-x-4 border-b-[1px] border-white">
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 1 ? "font-bold border-white" : ""
+                  selected === 1 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(1);
@@ -309,7 +309,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 2 ? "font-bold border-white" : ""
+                  selected === 2 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(2);
@@ -320,7 +320,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 3 ? "font-bold border-white" : ""
+                  selected === 3 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(3);
@@ -331,7 +331,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 4 ? "font-bold border-white" : ""
+                  selected === 4 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(4);
@@ -342,7 +342,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 5 ? "font-bold border-white" : ""
+                  selected === 5 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(5);
@@ -353,7 +353,7 @@ const Navbar = () => {
               </button>
               <button
                 className={`px-2 py-2 border-b-[4px] border-transparent text-white ${
-                  selected === 6 ? "font-bold border-white" : ""
+                  selected === 6 ? "font-bold border-white mb-[-2px]" : ""
                 }`}
                 onClick={() => {
                   handleChange(6);
