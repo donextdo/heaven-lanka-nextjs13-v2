@@ -102,7 +102,7 @@ const Inclusions = () => {
           </span>
         </div>
         <div className="flex flex-col ml-[40px]">
-          <p className="text-[18px]  leading-[32px] gap-[5px] md:w-[1050px]">
+          <p className="text-[18px]  leading-[32px] gap-[5px] 2xl:w-[1050px]">
             &#x2022; 
             Once booking details are submitted by you, we will go ahead
             with the booking process. At this stage, we require a 20% payment
@@ -121,7 +121,7 @@ const Inclusions = () => {
           </span>
         </div>
         <div className="flex flex-col ml-[40px]">
-          <div className="text-[18px]  leading-[32px] gap-[5px] md:w-[1050px]">
+          <div className="text-[18px]  leading-[32px] gap-[5px] 2xl:w-[1050px]">
             &#x2022; All travel offers listed on our website are discounted. As
             such, all orders are non-refundable, and cannot be used in
             conjunction with any other promotion. Thus, no refund for

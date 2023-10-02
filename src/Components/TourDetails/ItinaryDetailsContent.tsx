@@ -31,7 +31,7 @@ const ItinaryDetailsContent = () => {
         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col lg:flex-row gap-[50px] mt-[40px] px-[20px] lg:pl-[70px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[70px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -180,7 +180,7 @@ const ItinaryDetailsContent = () => {
         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[20px] md:ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col lg:flex-row gap-[50px] mt-[40px] px-[20px] lg:pl-[70px]">
+        <div className="flex flex-col xl:flex-row gap-[50px] mt-[40px] px-[20px] xl:pl-[70px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>

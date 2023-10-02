@@ -99,20 +99,20 @@ const QuoteForm = ({ setShowPopup }: any) => {
   };
 
   return (
-    <div className="absolute inset-0 z-100 grid place-items-center bg-slate-900 bg-opacity-80 ">
-      <div className="py-4 px-4 mx-2 flex flex-col relative bg-white shadow-md rounded-md w-full ">
+    <div className="absolute inset-0 z-100 grid place-items-center bg-slate-900 bg-opacity-80 top-[240px] xl:top-[0px]">
+      <div className="py-4 px-4 mx-auto flex flex-col relative bg-white shadow-md rounded-md w-full ">
         <button
           className="absolute top-8 right-10 text-gray-500 hover:text-gray-700"
           onClick={handleClose}
         >
           <MdClose size={40} />
         </button>
-        <div className="w-full md:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
-          <div className=" flex flex-col pb-10 ml-[270px]">
+        <div className="w-full xl:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
+          <div className=" flex flex-col pb-10 xl:ml-[270px] md:ml-[-275px]">
             <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col">
-              Catch Your Dream:
+              Catch Your Dream:    
             </h1>
-            <p className="md:w-[980px] flex flex-col text-[20px]">
+            <p className="xl:w-[980px] flex flex-col text-[20px]">
               Request a Tailored Quote!
             </p>
           </div>
@@ -209,7 +209,9 @@ const QuoteForm = ({ setShowPopup }: any) => {
                         name="fromDate"
                         min={new Date().toISOString().split("T")[0]}
                         value={selectedArrivalDate}
-                        onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
+                        onChange={(e: {
+                          target: { value: SetStateAction<string> };
+                        }) => setSelectedArrivalDate(e.target.value)}
                         style={{
                           height: "64.04px",
                           width: "332.42px",
