@@ -4,9 +4,9 @@ import Image from "next/image";
 const TestimonialsCard = ({ image, name, subtitle, content }: any) => {
   return (
     <div className="testimonial-card-container lg:w-72 h-full flex flex-col my-2 rounded-md">
-      <div className="relative bg-[#9DD9F3] p-4 rounded-lg">
+      <div className="relative bg-[#9DD9F3] p-4 rounded-3xl">
         <p className="mb-4">{content}</p>
-        <div className="absolute bottom-0 left-2/6 transform -translate-x-1/2 bg-[#9DD9F3] border-t-3 border-blue-500 w-6 h-6 -rotate-45"></div>
+        <div className="absolute bottom-0 ml-2 left-2/6 transform -translate-x-1/2 bg-[#9DD9F3] border-t-3 border-blue-500 w-8 h-8 -rotate-45"></div>
       </div>
 
       <div className="testimonial-info-container flex items-center">
@@ -18,8 +18,8 @@ const TestimonialsCard = ({ image, name, subtitle, content }: any) => {
             className="border rounded-full"
             src={image}
             alt={`${name}'s image`}
-            width={70}
-            height={70}
+            width={60}
+            height={60}
           />
         </div>
         <div className="testimonial-details ml-3 flex-grow">
