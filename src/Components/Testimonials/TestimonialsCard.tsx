@@ -18,8 +18,7 @@ const TestimonialsCard = ({ image, name, subtitle, content, style }: any) => {
             className="border rounded-full"
             src={image}
             alt={`${name}'s image`}
-            width={60}
-            height={60}
+            style={{ width: '60px', height: '60px', objectFit: 'cover' }}
           />
         </div>
         <div className="testimonial-details ml-3 flex-grow">

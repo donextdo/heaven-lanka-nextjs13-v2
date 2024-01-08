@@ -1,11 +1,11 @@
 import React from "react";
-import HillCountry from "../../../assets/Vaccation/HillCountry.png";
-import Island from "../../../assets/Vaccation/Island.png";
-import WildLife from "../../../assets/Vaccation/WildLife.png";
-import Nature from "../../../assets/Vaccation/Natural Heritage.png";
-import Cost from "../../../assets/Vaccation/Coast to Clouds.png";
-import SriLanka from "../../../assets/Vaccation/Sri Lanka Unveiled.png";
-import Beyond from "../../../assets/Vaccation/Beyond Boundaries.png";
+import HillCountry from "../../../assets/Testimonials/testimonial-person.png";
+import Island from "../../../assets/Testimonials/rhino-testimonial.png";
+import WildLife from "../../../assets/Testimonials/testimonial-person.png";
+import Nature from "../../../assets/Testimonials/testimonial-man-3.png";
+import Cost from "../../../assets/Testimonials/testimonial-man-3.png";
+import SriLanka from "../../../assets/Testimonials/rhino-testimonial.png";
+import Beyond from "../../../assets/Testimonials/rhino-testimonial.png";
 import { FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 
 import TestimonialsCard from "./TestimonialsCard";
