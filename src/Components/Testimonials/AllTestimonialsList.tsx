@@ -30,7 +30,7 @@ const testimonials = [
     name: "Hill Country Wonders",
     subtitle: "Web Developer",
     content:
-      "Hill Country Wonders provided excellent service. Their expertise in web development was evident throughout the project. I highly recommend them for any web development tasks.",
+      "Hill Country Wonders provided excellent service.Hill Country Wonders provided excellent service. Their expertise in web development was evident throughout the project. I highly recommend them for any web development tasks.",
   },
   {
     image: WildLife,
@@ -44,7 +44,7 @@ const testimonials = [
     name: "Natural Heritage",
     subtitle: "Web Developer",
     content:
-      "Natural Heritage provided excellent service. Their expertise in web development was evident throughout the project Natural Heritage provided excellent service. Their expertise in web development was evident throughout the project.. I highly recommend them for any web development tasks.",
+      "Natural Heritage provided excellent service.project Natural Heritage provided excellent service. Their expertise in web development was evident throughout the project.. I highly recommend them for any web development tasks.",
   },
   {
     image: Cost,
@@ -70,10 +70,22 @@ const testimonials = [
 ];
 
 const AllTestimonialsList = () => {
+    const cardMargins = [
+        '0 0 0 0',
+        '0 0 0 0',
+        '0 0 0 0',
+        '0 0 0 0',
+        '0 0 0 0',
+        '-100px 0 0 0',
+        '-50px 0 0 0',
+        '-100px 0 0 0',
+      ];
+
+
   return (
-    <div className="flex flex-wrap justify-center gap-4">
+   <div className="flex flex-wrap justify-center gap-8">
       {testimonials.map((testimonial, index) => (
-        <TestimonialsCard key={index} {...testimonial} />
+        <TestimonialsCard key={index} {...testimonial} style={{ margin: cardMargins[index] }} />
       ))}
     </div>
   );

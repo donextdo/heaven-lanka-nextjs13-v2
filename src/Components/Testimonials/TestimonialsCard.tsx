@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-const TestimonialsCard = ({ image, name, subtitle, content }: any) => {
+const TestimonialsCard = ({ image, name, subtitle, content, style }: any) => {
   return (
-    <div className="testimonial-card-container lg:w-72 h-full flex flex-col my-2 rounded-md">
+    <div className="testimonial-card-container lg:w-72 h-full flex flex-col my-2 rounded-md" style={{ ...style }}>
       <div className="relative bg-[#9DD9F3] p-4 rounded-3xl">
         <p className="mb-4">{content}</p>
         <div className="absolute bottom-0 ml-2 left-2/6 transform -translate-x-1/2 bg-[#9DD9F3] border-t-3 border-blue-500 w-8 h-8 -rotate-45"></div>
