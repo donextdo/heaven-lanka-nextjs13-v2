@@ -21,7 +21,7 @@ const ContactUsImage = () => {
         Contact Us
         </h1>
         <h5 className=" text-[14px] w-[300px] md:w-[400px] xl:w-[500px] 2xl:w-[600px]  md:text-lg xl:text-base xl:text-lg 2xl:text-xl font-normal text-white mt-4 xl:mt-[20px] 2xl:mt-[30px] 3xl:mt-[60px] md:mt-2 max-w-md md:max-w-2xl shadow-sm">
-        Reach Out, We're Here to Help!
+        Reach Out, We&apos;re Here to Help!
         </h5>
       </div>
     </div>
