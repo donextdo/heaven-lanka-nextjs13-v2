@@ -296,7 +296,7 @@ const Navbar = () => {
             }`}
             onClick={() => {
               handleChange(4);
-              router.push("/comingSoonPage");
+              router.push("/testimonialsPage");
             }}
           >
             Testimonials
