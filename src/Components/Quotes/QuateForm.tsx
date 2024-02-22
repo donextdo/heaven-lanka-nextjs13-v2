@@ -47,6 +47,29 @@ const validateForm = (values: FormValues): FormikErrors<FormValues> => {
   const errors: FormikErrors<FormValues> = {};
 
   // Add validation rules here
+  // Email validation
+  if (!values.email) {
+    errors.email = "Email is required";
+  } else if (!/^\S+@\S+\.\S+$/.test(values.email)) {
+    errors.email = "Invalid email address";
+  }
+
+  // Phone number validation
+  if (!values.phoneNumber) {
+    errors.phoneNumber = "Phone number is required";
+  } else if (!/^\+?\d{10,}$/.test(values.phoneNumber)) {
+    errors.phoneNumber = "Invalid phone number";
+  }
+
+  // Number of Pax (passengers) validation
+  if (values.adultCount + values.childCount <= 0) {
+    errors.adultCount = "At least one passenger is required";
+  }
+
+  // Nationality validation
+  if (!values.nationality) {
+    errors.nationality = "Nationality is required";
+  }
 
   return errors;
 };
@@ -144,7 +167,7 @@ const QuoteForm = () => {
                     name="email"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="email" component="div" />
+                  <ErrorMessage name="email" component="div" className="text-red-500"/>
                 </div>
 
                 <div className="flex flex-col  gap-2">
@@ -157,7 +180,7 @@ const QuoteForm = () => {
                     name="phoneNumber"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="phoneNumber" component="div" />
+                  <ErrorMessage name="phoneNumber" component="div" className="text-red-500"/>
                 </div>
               </div>
               <div className="flex flex-col xl:flex-row gap-10">
@@ -195,8 +218,8 @@ const QuoteForm = () => {
                   <div className="flex">
                     <Field
                       as="select"
-                      id="guests.adl"
-                      name="guests.adl"
+                      id="adultCount"
+                      name="adultCount"
                       className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] w-[50%] border-r-[2px] border-solid border-[#444444] rounded-tr-none rounded-br-none"
                     >
                       <option>Adult</option>
@@ -209,12 +232,12 @@ const QuoteForm = () => {
                       <option value="7">7 Adults</option>
                       <option value="8">8 Adults</option>
                     </Field>
-                    <ErrorMessage name="guests.adl" component="div" />
+                    {/* <ErrorMessage name="adultCount" component="div" /> */}
 
                     <Field
                       as="select"
-                      id="guests.chl"
-                      name="guests.chl"
+                      id="childCount"
+                      name="childCount"
                       className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] w-[50%]"
                     >
                       <option>Child</option>
@@ -227,8 +250,9 @@ const QuoteForm = () => {
                       <option value="7">7 Child</option>
                       <option value="8">8 Child</option>
                     </Field>
-                    <ErrorMessage name="guests.chl" component="div" />
+                    {/* <ErrorMessage name="childCount" component="div" /> */}
                   </div>
+                  <ErrorMessage name="adultCount" component="div" className="text-red-500"/>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="font-semibold" htmlFor="nationality">
@@ -240,7 +264,7 @@ const QuoteForm = () => {
                     name="nationality"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="nationality" component="div" />
+                  <ErrorMessage name="nationality" component="div" className="text-red-500"/>
                 </div>
               </div>
 

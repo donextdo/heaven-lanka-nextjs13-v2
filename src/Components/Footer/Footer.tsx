@@ -92,7 +92,7 @@ const FooterView = () => {
   const router = useRouter();
 
   const facebookUrl = "https://www.facebook.com/heavenlankatravels?mibextid=LQQJ4d";
-  const instagramUrl = "https://twitter.com/heaven_lanka/status/1627940024737009664?s=46&t=9sWVYPeyua1guC6vynx0fg";
+  const instagramUrl = "https://www.instagram.com/heavenlankatravels/";
   const twitterUrl = "https://twitter.com/heaven_lanka/status/1627940024737009664?s=46&t=9sWVYPeyua1guC6vynx0fg";
 
   return (

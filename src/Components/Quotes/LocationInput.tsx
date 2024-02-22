@@ -8,10 +8,8 @@ const LocationInput = () => {
           id="location"
           className="w-full xl:w-[200px] bg-transparent h-10 rounded-md outline-none border border-white-300 bg-opacity-0 text-sm xl:text-white text:black xl:px-4 pl-3 cursor-pointer"
         >
-          <option value="Colombo" className="text-black">Colombo</option>
-          <option value="Galle" className="text-black">Galle</option>
-          <option value="Kandy" className="text-black">Kandy</option>
-          <option value="Matara" className="text-black">Matara</option>
+          <option value="Sri Lanka" className="text-black">Sri Lanka</option>
+          <option value="UAE" className="text-black">UAE</option>
         </select>
       </div>
     );
