@@ -86,9 +86,9 @@ const QuoteForm2 = () => {
 
   return (
     <div className="w-full xl:w-[1170px] mx-auto p-4 md:py-8 md:px-20 xl-px-4 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
-      <div className=" flex flex-col justify-center items-center  pb-10 ml-[270px]">
+      <div className=" flex flex-col justify-center items-center  pb-10">
         <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col justify-center items-center">
-          Catch Your Dream:
+          Catch Your Dream
         </h1>
         <p className="xl:w-[980px] flex flex-col justify-center items-center  text-[20px]">
           Request a Tailored Quote!
@@ -182,7 +182,7 @@ const QuoteForm2 = () => {
                       as="select"
                       id="guests.adl"
                       name="guests.adl"
-                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%] border-r-[2px] border-solid border-[#444444] rounded-tr-none rounded-br-none"
+                      className="h-[64.04px] xl:w-[166.21px] rounded-[5px] p-[10px] sm:w-[50%] border-r-[2px] border-solid border-[#e0e0e0] rounded-tr-none rounded-br-none"
                     >
                       <option>Adult</option>
                       <option value="1">1 Adult</option>
