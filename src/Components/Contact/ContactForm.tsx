@@ -35,7 +35,12 @@ const initialValues: FormValues = {
 const validateForm = (values: FormValues): FormikErrors<FormValues> => {
   const errors: FormikErrors<FormValues> = {};
 
-  // Add validation rules here
+  // Email validation
+  if (!values.email) {
+    errors.email = "Email is required";
+  } else if (!/^\S+@\S+\.\S+$/.test(values.email)) {
+    errors.email = "Invalid email address";
+  }
 
   return errors;
 };
@@ -115,7 +120,7 @@ const ContactForm = ({ setShowPopup }: any) => {
                     name="email"
                     className="h-[64px] lg:w-[706px] rounded-[5px] p-[10px] w-full"
                   />
-                  <ErrorMessage name="email" component="div" />
+                  <ErrorMessage name="email" component="div" className="text-red-500"/>
                 </div>
 
               <div className="flex flex-col  gap-2 w-full lg:w-auto">

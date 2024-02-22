@@ -117,11 +117,11 @@ const FeedbackMsgList = () => {
     <div className="flex flex-col xl:flex-row xl:gap-[400px] items-center ">
       <div className="flex gap-4 ">
         <FiArrowLeftCircle
-          className="w-8 h-8 text-[#FFFFFF] fill-[#999999] cursor-pointer"
+          className="w-8 h-8 text-[#FFFFFF] fill-[#999999] hover:fill-[#FA7436] cursor-pointer"
           onClick={handlePrevious}
         />
         <FiArrowRightCircle
-          className="w-8 h-8 text-[#FFFFFF]  fill-[#FA7436] cursor-pointer"
+          className="w-8 h-8 text-[#FFFFFF] fill-[#999999]  hover:fill-[#FA7436] cursor-pointer"
           onClick={handleNext}
         />
       </div>

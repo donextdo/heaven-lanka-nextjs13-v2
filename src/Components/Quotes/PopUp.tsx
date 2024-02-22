@@ -48,6 +48,29 @@ const validateForm = (values: FormValues): FormikErrors<FormValues> => {
   const errors: FormikErrors<FormValues> = {};
 
   // Add validation rules here
+  // Email validation
+  if (!values.email) {
+    errors.email = "Email is required";
+  } else if (!/^\S+@\S+\.\S+$/.test(values.email)) {
+    errors.email = "Invalid email address";
+  }
+
+  // Phone number validation
+  if (!values.phoneNumber) {
+    errors.phoneNumber = "Phone number is required";
+  } else if (!/^\+?\d{10,}$/.test(values.phoneNumber)) {
+    errors.phoneNumber = "Invalid phone number";
+  }
+
+  // Number of Pax (passengers) validation
+  if (values.adultCount + values.childCount <= 0) {
+    errors.adultCount = "At least one passenger is required";
+  }
+
+  // Nationality validation
+  if (!values.nationality) {
+    errors.nationality = "Nationality is required";
+  }
 
   return errors;
 };
@@ -110,7 +133,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
         <div className="w-full xl:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
           <div className=" flex flex-col pb-10 xl:ml-[270px] md:ml-[-275px]">
             <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col">
-              Catch Your Dream:    
+              Catch Your Dream:
             </h1>
             <p className="xl:w-[980px] flex flex-col text-[20px]">
               Request a Tailored Quote!
@@ -177,7 +200,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
                           padding: "10px",
                         }}
                       />
-                      <ErrorMessage name="email" component="div" />
+                      <ErrorMessage name="email" component="div" className="text-red-500"/>
                     </div>
 
                     <div className="flex flex-col  gap-2">
@@ -195,7 +218,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
                           padding: "10px",
                         }}
                       />
-                      <ErrorMessage name="phoneNumber" component="div" />
+                      <ErrorMessage name="phoneNumber" component="div" className="text-red-500"/>
                     </div>
                   </div>
                   <div className="flex flex-col md:flex-row gap-10">
@@ -243,14 +266,14 @@ const QuoteForm = ({ setShowPopup }: any) => {
                   </div>
                   <div className="flex flex-col md:flex-row gap-10 ">
                     <div className="flex flex-col  gap-2">
-                      <label className="font-semibold" htmlFor="guests">
+                      <label className="font-semibold" htmlFor="adultCount">
                         Number of guests:
                       </label>
                       <div className="flex">
                         <Field
                           as="select"
-                          id="guests.adl"
-                          name="guests.adl"
+                          id="adultCount"
+                          name="adultCount"
                           style={{
                             height: "64.04px",
                             width: "166.21px",
@@ -270,12 +293,12 @@ const QuoteForm = ({ setShowPopup }: any) => {
                           <option value="7">7 Adults</option>
                           <option value="8">8 Adults</option>
                         </Field>
-                        <ErrorMessage name="guests.adl" component="div" />
+                        {/* <ErrorMessage name="adultCount" component="div" /> */}
 
                         <Field
                           as="select"
-                          id="guests.chl"
-                          name="guests.chl"
+                          id="childCount"
+                          name="childCount"
                           style={{
                             height: "64.04px",
                             width: "166.21px",
@@ -294,8 +317,9 @@ const QuoteForm = ({ setShowPopup }: any) => {
                           <option value="7">7 Child</option>
                           <option value="8">8 Child</option>
                         </Field>
-                        <ErrorMessage name="guests.chl" component="div" />
+                        {/* <ErrorMessage name="childCount" component="div" /> */}
                       </div>
+                      <ErrorMessage name="adultCount" component="div" className="text-red-500"/>
                     </div>
                     <div className="flex flex-col gap-2">
                       <label className="font-semibold" htmlFor="nationality">
@@ -312,7 +336,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
                           padding: "10px",
                         }}
                       />
-                      <ErrorMessage name="nationality" component="div" />
+                      <ErrorMessage name="nationality" component="div" className="text-red-500"/>
                     </div>
                   </div>
 
