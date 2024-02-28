@@ -131,11 +131,11 @@ const QuoteForm = ({ setShowPopup }: any) => {
           <MdClose size={40} />
         </button>
         <div className="w-full xl:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
-          <div className=" flex flex-col pb-10 xl:ml-[270px] md:ml-[-275px]">
-            <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col">
-              Catch Your Dream:
+          <div className=" flex flex-col pb-10">
+            <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col items-center">
+              Catch Your Dream
             </h1>
-            <p className="xl:w-[980px] flex flex-col text-[20px]">
+            <p className="xl:w-[980px] flex flex-col text-[20px] items-center">
               Request a Tailored Quote!
             </p>
           </div>
@@ -280,7 +280,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
                             borderRadius: "5px 0 0 5px",
                             borderRadiusRight: "none",
                             padding: "10px",
-                            borderRight: "2px solid #444444",
+                            borderRight: "2px solid #e0e0e0",
                           }}
                         >
                           <option>Adult</option>
