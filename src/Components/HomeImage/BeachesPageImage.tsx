@@ -1,6 +1,6 @@
 import Image from "next/image";
 import NavbarOne from "../Navbar/Navbar1";
-import image from ".././../../assets/Beaches/beach1.jpeg";
+import image from ".././../../assets/Beaches/beaches.jpg";
 
 const BeachesPageImage = () => {
   return (
