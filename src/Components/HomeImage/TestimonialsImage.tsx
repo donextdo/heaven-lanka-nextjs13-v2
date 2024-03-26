@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from ".././../../assets/Tour/Tour.png";
+import image from ".././../../assets/Testimonials/testimonials2.jpg";
 import Navbar from "../Navbar/Navbar";
 
 const TestimonialsImage = () => {

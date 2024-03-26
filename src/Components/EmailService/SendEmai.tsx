@@ -1,10 +1,16 @@
 import emailjs from 'emailjs-com';
+import {USER_ID} from '@/config-global'
 
 // Replace 'your_user_id' with your actual EmailJS User ID
-const USER_ID = 'eOuUtCZwAoRYQO0SO';
+// const USER_ID = 'eOuUtCZwAoRYQO0SO';
 
 // Initialize EmailJS SDK
-emailjs.init(USER_ID);
+if (USER_ID) {
+  emailjs.init(USER_ID);
+} else {
+  console.log("EMAIL JS USER_ID not found");
+}
+
 
 export const sendEmail = async (templateId: string, templateParams: any) => {
   try {

@@ -184,11 +184,11 @@ const HomeContent = () => {
       <div className="container mx-auto px-4 md:px-20 mt-8">
         <VaccationList />
       </div>
-      <div className="flex items-center justify-center mt-[15px]">
+      {/* <div className="flex items-center justify-center mt-[15px]">
         <button className="hidden lg:block">
           <Image src={slideArrow} alt="item1" className="w-[70px]" />
         </button>
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-4 lg:px-20 mt-8  lg:mt-28">
         <div className="text-center space-y-4">
@@ -203,13 +203,13 @@ const HomeContent = () => {
       </div>
 
       <div className="container flex items-center justify-center gap-[20px] mx-auto px-4 lg:px-20 mt-8 mb-5">
-        <button className="hidden lg:block ">
+        {/* <button className="hidden lg:block ">
           <Image src={LA} alt="item1" className="w-[17px]" />
-        </button>
+        </button> */}
         <TreasuresList />
-        <button className="hidden lg:block ">
+        {/* <button className="hidden lg:block ">
           <Image src={RA} alt="item1" className="w-[17px]" />
-        </button>
+        </button> */}
       </div>
 
       {/* <div className="bg-[#077B83] bg-opacity-10">
