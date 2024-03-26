@@ -12,7 +12,7 @@ const BeachesPageImage = () => {
         <NavbarOne />
       </div>
       <div className="absolute flex items-center justify-center text-xs md:text-lg font-bold text-white bg-[#077B83] bg-opacity-50 w-[150px] h-[30px]  md:w-[200px] md:h-[64px] md:rounded-[25px] md:text-[32px] md:font-[700] rounded-xl bottom-2 left-1/2 transform -translate-x-1/2 ">
-        Unspoiled Beaches
+        Unspoiled Beaches 
       </div>
     </div>
   );
