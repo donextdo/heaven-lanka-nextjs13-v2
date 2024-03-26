@@ -169,7 +169,7 @@ const AllVaccationList = () => {
           name="Beyond Boundaries"
           rate="4.8"
           price="$500"
-          duration=""
+          duration="2N/3D"
           quoted="per person"
           pathName="./singlePage"
         />

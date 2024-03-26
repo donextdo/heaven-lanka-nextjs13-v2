@@ -131,7 +131,7 @@ const FooterView = () => {
           </div>
 
           <div className="text-center md:text-left mt-[30px] md:mt-[50px] text-sm text-[#666666]">
-          Acceptable payment methods
+            Choose Your Preferred Payment Method
           </div>
 
           <div className="flex flex-row justify-center">
@@ -145,9 +145,9 @@ const FooterView = () => {
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Company
           </div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">About</div>
-          <div className="mt-[20px]  cursor-pointer hover:opacity-75">Career</div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Logistic</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./aboutUspage')}>About</div>
+          <div className="mt-[20px]  cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Career</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Logistic</div>
           <div className="mt-[20px] cursor-pointer hover:opacity-75"
           onClick={() => router.push('./privacyPage')}
           >Privacy & Policy</div>
@@ -160,18 +160,18 @@ const FooterView = () => {
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Contact
           </div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Help/FAQ</div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Press</div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Affilates</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Help/FAQ</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Press</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Affilates</div>
         </div>
 
         <div className="col-span-1 md:col-span-1 text-center md:text-left md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             More
           </div>
-          <div className="mt-[20px]  cursor-pointer hover:opacity-75">Press Centre</div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Our Blog</div>
-          <div className="mt-[20px] cursor-pointer hover:opacity-75">Low fare tips</div>
+          <div className="mt-[20px]  cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Press Centre</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Our Blog</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75" onClick={() => router.push('./comingSoonPage')}>Low fare tips</div>
         </div>
       </div>
       <div className="mt-[20px] border border-[1px] bg-[#999999] bg-opacity-[56%]">

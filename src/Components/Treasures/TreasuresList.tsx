@@ -62,18 +62,22 @@ const TreasuresList = () => {
     {
       image: beach,
       name: 'Unspoiled Beaches',
+      pathName: './beachesPage'
     },
     {
       image: escapes,
       name: 'Adventurous Escapes',
+      pathName: './adventureEscapesPage'
     },
     {
       image: historical,
       name: 'Historical Marvels',
+      pathName: './HistoricalMarvelsPage'
     },
     {
       image: wellness,
       name: 'Wellness Retreats',
+      pathName: './wellness'
     },
   ];
 
@@ -81,7 +85,7 @@ const TreasuresList = () => {
     <div className='flex flex-row lg:flex-row items-center gap-5 justify-center mt-4'>
       {/* <Slider> */}
         {TreasuresLists.map((item, index) => (
-          <TreasuresCard key={index} item={item} />
+          <TreasuresCard key={index} item={item}/>
         ))}
       {/* </Slider> */}
     </div>

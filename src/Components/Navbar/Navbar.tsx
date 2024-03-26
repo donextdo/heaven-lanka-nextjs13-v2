@@ -128,7 +128,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import logo from "../../../assets/Logo/logo.png";
+import logo from "../../../assets/Logo/Asset 2@3x - logo.png";
 
 let navoption: number;
 const Navbar = () => {
