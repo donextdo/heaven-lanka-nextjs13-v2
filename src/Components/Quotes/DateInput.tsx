@@ -30,7 +30,6 @@ const DateInput = () => {
       <div className="flex gap-2">
         <div className="h-10 rounded-md border border-gray-300 w-[100%]">
           <input
-            placeholder="dd/mm/yyyy"
             type="date"
             id="travellingDate"
             name="travellingDate"
