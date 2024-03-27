@@ -126,7 +126,7 @@ const FooterView = () => {
         </a>
           </div>
           <div className="text-center md:text-left mt-[20px] md:mt-4 text-sm text-[#666666] ">
-          <p>Tourist Board License No : SLTDA/SQA/PRO/TA/00720 </p>    <span>       ©2023 Heaven Lanka Travels (Pvt) Ltd Sri Lanka (Reg: PV 00271994)        </span>          
+          <p>Tourist Board License No : SLTDA/SQA/PRO/TA/00720 </p>    <span>       ©2024 Heaven Lanka Travels (Pvt) Ltd Sri Lanka (Reg: PV 00271994)        </span>          
 
           </div>
 
@@ -179,7 +179,7 @@ const FooterView = () => {
       </div>
       <div className="grid grid-cols-2 text-sm">
         <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-left">
-          Copyright, Heaven Lanka 2023. All rights reserved.
+          Copyright, Heaven Lanka 2024. All rights reserved.
         </div>
         <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-right cursor-pointer hover:opacity-75"
         onClick={() => router.push('./termsPage')}

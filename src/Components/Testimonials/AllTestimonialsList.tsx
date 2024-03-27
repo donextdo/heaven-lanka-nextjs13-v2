@@ -1,11 +1,12 @@
 import React from "react";
 import HillCountry from "../../../assets/Testimonials/testimonial-person.png";
 import Island from "../../../assets/Testimonials/rhino-testimonial.png";
-import WildLife from "../../../assets/Testimonials/testimonial-person.png";
-import Nature from "../../../assets/Testimonials/testimonial-man-3.png";
+import WildLife from "../../../assets/Testimonials/testimonial-p-2.jpg";
+import Nature from "../../../assets/Testimonials/testimonial-p-5.jpg";
 import Cost from "../../../assets/Testimonials/testimonial-man-3.png";
-import SriLanka from "../../../assets/Testimonials/rhino-testimonial.png";
-import Beyond from "../../../assets/Testimonials/rhino-testimonial.png";
+import SriLanka from "../../../assets/Testimonials/testimonial-p-1.jpg";
+import Beyond from "../../../assets/Testimonials/testimonial-p-3.jpg";
+import Oliva from "../../../assets/Testimonials/testimonial-p-4.jpg";
 import { FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 
 import TestimonialsCard from "./TestimonialsCard";
@@ -61,7 +62,7 @@ const testimonials = [
         "Beyond Boundaries took me on an adrenaline-pumping adventure. From thrilling activities to off-the-beaten-path destinations, it was a journey that pushed my limits and left me craving for more.",
     },
     {
-      image: Nature,
+      image: Oliva,
       name: "Olivia Green",
       subtitle: "Eco Explorer",
       content:
