@@ -171,7 +171,7 @@ const AboutUsContent = () => {
 </div>
 
 
-      <div className="container mt-[20px] md:mt-[40px] mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col">
+      {/* <div className="container mt-[20px] md:mt-[40px] mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col">
     <h1 className="text-[24px] md:text-[48px] font-bold font-[volkhov] text-center lg:text-start">
           {" "}
           Meet Our <span className="text-[#077B83]">Extraordinary Team</span>
@@ -234,7 +234,7 @@ const AboutUsContent = () => {
             Founder & CEO{" "}
           </span>
         </div>
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-4 md:px-20 mt-8">
         <SubscriptionCard />

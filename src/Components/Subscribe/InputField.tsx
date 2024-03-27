@@ -2,6 +2,7 @@
 import { useState } from "react";
 import SubButton from "./button";
 import Swal from "sweetalert2";
+import {subscribe} from '@/config-global'
 
 const InputField = () => {
   const [email, setEmail] = useState('');

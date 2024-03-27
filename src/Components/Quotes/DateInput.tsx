@@ -36,7 +36,7 @@ const DateInput = () => {
             min={minDateString}
             value={selectedArrivalDate}
             onChange={handleArrivalDateChange}
-            className="w-[50%] xl:w-[180px] bg-transparent h-10 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+            className="w-[50%] xl:w-[180px] bg-transparent h-10 text-sm cursor-pointer text-black xl:text-white pl-3 pr-3"
           />
           <input
             type="date"
@@ -45,7 +45,7 @@ const DateInput = () => {
             min={selectedArrivalDate} 
             value={selectedReturnDate}
             onChange={handleReturnDateChange}
-            className="w-[50%] xl:w-[180px] bg-transparent h-10 text-sm cursor-pointer text-black md:text-white pl-3 pr-3"
+            className="w-[50%] xl:w-[180px] bg-transparent h-10 text-sm cursor-pointer text-black xl:text-white pl-3 pr-3"
           />
         </div>
       </div>

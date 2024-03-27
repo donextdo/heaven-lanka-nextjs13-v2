@@ -25,7 +25,7 @@ const ContactUsContent = () => {
           <div className="flex flex-col items-center sm:items-start gap-[50px] justify-evenly">
             <div className="flex flex-col gap-[10px] sm:flex-row sm:gap-[50px] items-center">
               <div className="w-[117px] h-[117px] flex-shrink-0">
-                <Image src={Tel} alt="tel" className="w-full" />
+                <Image src={Tel} alt="tel" className="w-[75%]" />
               </div>
               <div className="flex flex-col items-start justify-center">
                 <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
@@ -38,7 +38,7 @@ const ContactUsContent = () => {
             </div>
             <div className="flex flex-col gap-[10px] sm:flex-row sm:gap-[50px] items-center">
               <div className="w-[117px] flex-shrink-0">
-                <Image src={Email} alt="email" className="w-full" />
+                <Image src={Email} alt="email" className="w-[75%]" />
               </div>
               <div className="flex flex-col items-start justify-center">
                 <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] text-center">
@@ -48,7 +48,7 @@ const ContactUsContent = () => {
             </div>
             <div className="flex flex-col gap-[10px] sm:flex-row sm:gap-[50px] items-center">
               <div className="w-[117px] flex-shrink-0">
-                <Image src={Location} alt="location" className="w-full" />
+                <Image src={Location} alt="location" className="w-[75%]" />
               </div>
               <div className="flex flex-col items-start justify-center">
                 <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">

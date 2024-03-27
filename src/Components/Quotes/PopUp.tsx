@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { sendEmail } from "../EmailService/SendEmai";
 import { FaSpinner } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
+import {templateId} from '@/config-global'
 
 import {
   Formik,
@@ -89,8 +90,8 @@ const QuoteForm = ({ setShowPopup }: any) => {
 
   const handleSub = async (values: FormValues) => {
     try {
-      const templateId = "template_sy1uhyg";
-      setIsLoading(true);
+      if (templateId) {
+        setIsLoading(true);
       // Replace this with your actual EmailJS Template ID
       await sendEmail(templateId, values);
 
@@ -105,6 +106,8 @@ const QuoteForm = ({ setShowPopup }: any) => {
       });
 
       setIsLoading(false);
+      }
+      console.log("cannot find template id",templateId);
     } catch (error) {
       console.error("Error sending email:", error);
       // alert("An error occurred while sending the email.");

@@ -1,10 +1,10 @@
 "use client";
-import { useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import dynamic from "next/dynamic";
 import { sendEmail } from "../EmailService/SendEmai";
 import { FaSpinner } from "react-icons/fa";
-import {templateId} from '@/config-global'
+import { templateId } from "@/config-global";
 
 import {
   Formik,
@@ -76,6 +76,14 @@ const validateForm = (values: FormValues): FormikErrors<FormValues> => {
 };
 
 const QuoteForm = () => {
+  const [minDateString, setMinDateString] = useState("");
+  const [selectedArrivalDate, setSelectedArrivalDate] = useState("");
+
+  useEffect(() => {
+    const minDate = new Date();
+    minDate.setDate(minDate.getDate() + 1);
+    setMinDateString(minDate.toISOString().split("T")[0]);
+  }, []);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSub = async (values: FormValues) => {
@@ -83,23 +91,22 @@ const QuoteForm = () => {
       // const templateId = "template_sy1uhyg";
       if (templateId) {
         setIsLoading(true);
-      // Replace this with your actual EmailJS Template ID
-      await sendEmail(templateId, values);
+        // Replace this with your actual EmailJS Template ID
+        await sendEmail(templateId, values);
 
-      // alert("Email sent successfully!");
+        // alert("Email sent successfully!");
 
-      Swal.fire({
-        position: "top",
-        icon: "success",
-        title: "Email sent successfully!",
-        showConfirmButton: false,
-        timer: 1500,
-      });
+        Swal.fire({
+          position: "top",
+          icon: "success",
+          title: "Email sent successfully!",
+          showConfirmButton: false,
+          timer: 1500,
+        });
 
-      setIsLoading(false);
+        setIsLoading(false);
       }
-      console.log("cannot find template id",templateId);
-      
+      console.log("cannot find template id", templateId);
     } catch (error) {
       console.error("Error sending email:", error);
       // alert("An error occurred while sending the email.");
@@ -172,7 +179,11 @@ const QuoteForm = () => {
                     name="email"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="email" component="div" className="text-red-500"/>
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className="text-red-500"
+                  />
                 </div>
 
                 <div className="flex flex-col  gap-2">
@@ -185,7 +196,11 @@ const QuoteForm = () => {
                     name="phoneNumber"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="phoneNumber" component="div" className="text-red-500"/>
+                  <ErrorMessage
+                    name="phoneNumber"
+                    component="div"
+                    className="text-red-500"
+                  />
                 </div>
               </div>
               <div className="flex flex-col xl:flex-row gap-10">
@@ -197,6 +212,11 @@ const QuoteForm = () => {
                     type="date"
                     id="fromDate"
                     name="fromDate"
+                    min={new Date().toISOString().split("T")[0]}
+                    value={selectedArrivalDate}
+                    onChange={(e: {
+                      target: { value: SetStateAction<string> };
+                    }) => setSelectedArrivalDate(e.target.value)}
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="fromDate" component="div" />
@@ -210,6 +230,7 @@ const QuoteForm = () => {
                     type="date"
                     id="toDate"
                     name="toDate"
+                    min={selectedArrivalDate}
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
                   <ErrorMessage name="toDate" component="div" />
@@ -257,7 +278,11 @@ const QuoteForm = () => {
                     </Field>
                     {/* <ErrorMessage name="childCount" component="div" /> */}
                   </div>
-                  <ErrorMessage name="adultCount" component="div" className="text-red-500"/>
+                  <ErrorMessage
+                    name="adultCount"
+                    component="div"
+                    className="text-red-500"
+                  />
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="font-semibold" htmlFor="nationality">
@@ -269,7 +294,11 @@ const QuoteForm = () => {
                     name="nationality"
                     className="h-[64.04px] xl:w-[332.42px] rounded-[5px] p-[10px] sm:w-full"
                   />
-                  <ErrorMessage name="nationality" component="div" className="text-red-500"/>
+                  <ErrorMessage
+                    name="nationality"
+                    component="div"
+                    className="text-red-500"
+                  />
                 </div>
               </div>
 
